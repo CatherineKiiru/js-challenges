@@ -150,3 +150,11 @@ you'll adds the index of that comes after the last element i.e. 6 */
 //     return "No, that was false";  
 //   }
 
+//COMPARISON WITH EQUALITY OPERATOR
+function equalityTest (myValue) {
+    if (myValue == 10) {
+        return 'My Value is Equal'; //if 'myValue' is equal to 10, the equality operator returns true,
+        //so the code in this curly braces will execute
+    }
+    return "My Value is not Equal";
+}

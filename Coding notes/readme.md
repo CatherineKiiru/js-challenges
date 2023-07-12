@@ -26,3 +26,16 @@ function test (condition) {
 test(true);
 test(false);
 ```
+### Comprison with equality operator
+All comparison operators return a boolean true or false value.
+
+The most basic operator is the equality operator (==). Note that the equality operator (==) is different from the assignment operator (=)
+
+The equality operator compares two values and returns "true" if the values are equivalent or it returns "false" if they are not equivalent.
+
+Note, JavaScript converts one data type to another in order for JavaScript to compare the two data types. This is a phenomenon called 'TYPE COERCION'. For example:
+
+1 == 1 evaluates to true because the number datatype on the left is equivalent to the number data type on the right
+
+1 == '1' also evaluates to true because JavaScript has converted the string data type on the right to a number which is the same as the number data type to the left. 
+
