@@ -1,3 +1,5 @@
+/* FreeCodeCamp Challenges
+
 /*Task 1 - extract nth character from a string
 
  write a function that takes a string as an argument
@@ -61,3 +63,13 @@ function confirmEnding (str, target){
 }
 console.log(confirmEnding)("Bastian", ) */
 
+/* Find the longest word in a string 
+The task is to return the length of the longest word in the sentence
+
+*/
+
+function findLongestWordLength (str){
+    return str.length;
+}
+
+findLongestWordLength("The quick brown fox jumped over the lazy dog");
