@@ -114,4 +114,19 @@ you'll adds the index of that comes after the last element i.e. 6 */
 // moviesAndTvShowsToWatch.splice(2, 0, "The Umbrella Academy")
 // console.log(moviesAndTvShowsToWatch);
 
+//Queue solution
+// write a function which takes in two arguments an array(arr) and a number(item)
+// Add the number to the end of the array, then remove the first element of the array
+// The nextInLine function should return the element we removed
 
+// function nextInLine(arr, item) {
+//     arr.push(item); //adds the number to the end of the array
+//     const removeItem = arr.shift(); //removes the first element of the array
+//     return removeItem;
+//   }
+  
+//   let testArr = [1, 2, 3, 4, 5];
+  
+//   console.log("Before: " + JSON.stringify(testArr));
+//   console.log(nextInLine(testArr, 6));
+//   console.log("After: " + JSON.stringify(testArr));
