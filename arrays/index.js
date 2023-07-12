@@ -113,3 +113,5 @@ you'll adds the index of that comes after the last element i.e. 6 */
 
 // moviesAndTvShowsToWatch.splice(2, 0, "The Umbrella Academy")
 // console.log(moviesAndTvShowsToWatch);
+
+

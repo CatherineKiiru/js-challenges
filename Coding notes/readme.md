@@ -1,0 +1,1 @@
+A Queue is an abstract data structure where items are kept in order. 
