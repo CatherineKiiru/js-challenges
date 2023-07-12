@@ -137,7 +137,16 @@ you'll adds the index of that comes after the last element i.e. 6 */
 //   console.log(nextInLine(testArr, 6));
 //   console.log("After: " + JSON.stringify(testArr));
 
-// // BOOLEAN VALUE SOLUTION
+// BOOLEAN VALUE SOLUTION
 // function welcomeToBooleans() {
 //     return true; //returns true
 // }
+
+// IF STATEMENTS AND BOOLEAN CONDITIONS
+// function trueOrFalse(wasThatTrue) {
+//     if (wasThatTrue) {
+//       return "Yes, that was true";
+//     }
+//     return "No, that was false";  
+//   }
+
