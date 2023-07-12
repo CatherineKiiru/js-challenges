@@ -130,3 +130,8 @@ you'll adds the index of that comes after the last element i.e. 6 */
 //   console.log("Before: " + JSON.stringify(testArr));
 //   console.log(nextInLine(testArr, 6));
 //   console.log("After: " + JSON.stringify(testArr));
+
+// Boolean Value Solution
+function welcomeToBooleans() {
+    return true; //returns true
+}
