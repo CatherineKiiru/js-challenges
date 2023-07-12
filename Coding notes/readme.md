@@ -6,3 +6,6 @@ Solution in arrays/index.js
 
 ### Boolean Values
 Boolean values can only be two values: true or false. 
+
+### Conditional logic with If Statements
+If statements are used to make decisions 

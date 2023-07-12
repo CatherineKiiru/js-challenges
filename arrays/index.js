@@ -1,9 +1,12 @@
-// //Multi-dimensional Arrays. This nests one array within another array
+//MULTI-DIMENSIONAL ARRAYS
+
+//This nests one array within another array
 // const kenyaCountyNumbers = [['Nairobi', 003,] ['Mombasa', 001], ['Kisumu',20]];
 // const lastCounty = kenyaCountyNumbers[kenyaCountyNumbers.length [1]];
 // console.log(lastCounty);
 
-//Accessing array data with Indexes
+//ACCESSING ARRAY DATA WITH INDEXES
+
 //You use bracket notation as you do with strings. The main difference is that you specify an entry in the array
 // instead of a character like in a string. Arrays aslo use zero-based indexing.
 
@@ -11,7 +14,7 @@
 // const myData = myArray[3];
 // console.log(myData);
 
-// Modify array data with Indexes
+//MODIFY DATA WITH INDEXES
 // Array entries are mutable (can be changed) and can be modified freely even if you declared the array with a const keyword
 
 // const myArray = [50, 40, 100, 'Mary'];
@@ -19,7 +22,7 @@
 // console.log(myArray);
 // We have changed the value of index 2 from 100 to 60
 
-// Multi-dimensional arrays with Indexes
+//MULTI-DIMENSIONAL ARRAYS WITH INDEXES
 // These are arrays of an array. Below is an example of a multidimensional array
 
 // const array = [
@@ -36,7 +39,7 @@
 
 //MANIPULATING ARRAYS WITH METHODS
 
-//Push method
+//PUSH METHOD
 //The push method adds data to a pre-existing array
 
 // const myArray = ["dog", "cat", 9, null, undefined]
@@ -44,7 +47,7 @@
 // console.log(myArray);
 //[ 'dog', 'cat', 9, null, undefined, 33 ]
 
-//Pop method
+//POP METHOD
 /*The pop method removes the last element from an array. 
 You can store the popped off value by assigning it to a new variable.
 This method removes the last element by default */
@@ -60,7 +63,8 @@ This method removes the last element by default */
 //  console.log(newArr);
 // This returns the popped off array which is null because it's the last value//
 
-//Shift method
+//SHIFT METHOD
+
 /* This method removes the first element in an Array. 
  It's the opposite of the pop method. If you don't assign the shifted element 
  to a new variable, you simply return the new array without the first element*/
@@ -76,7 +80,8 @@ This method removes the last element by default */
 //  console.log(firstElement);
 //  //* This returns the shifed off element i.e. 1 //
 
-//Unshift method
+//UNSHIFT METHOD
+
 //This method adds elements infront of an array. This works like the push method
 //  const myArr = [1, 56, 'dog', ['hello world'], true, [67]];
 //  const firstElement =  myArr.unshift();
@@ -102,7 +107,7 @@ you'll adds the index of that comes after the last element i.e. 6 */
 
 // console.log(myList);
 
-//Splice Method
+//SPLICE METHOD
 
 // moviesAndTvShowsToWatch = [
 //   "Howl's Moving Castle",
@@ -114,7 +119,8 @@ you'll adds the index of that comes after the last element i.e. 6 */
 // moviesAndTvShowsToWatch.splice(2, 0, "The Umbrella Academy")
 // console.log(moviesAndTvShowsToWatch);
 
-//Queue solution
+//QUEUE SOLUTION
+
 // write a function which takes in two arguments an array(arr) and a number(item)
 // Add the number to the end of the array, then remove the first element of the array
 // The nextInLine function should return the element we removed
@@ -131,7 +137,7 @@ you'll adds the index of that comes after the last element i.e. 6 */
 //   console.log(nextInLine(testArr, 6));
 //   console.log("After: " + JSON.stringify(testArr));
 
-// Boolean Value Solution
-function welcomeToBooleans() {
-    return true; //returns true
-}
+// // BOOLEAN VALUE SOLUTION
+// function welcomeToBooleans() {
+//     return true; //returns true
+// }
