@@ -150,11 +150,49 @@ you'll adds the index of that comes after the last element i.e. 6 */
 //     return "No, that was false";  
 //   }
 
-//COMPARISON WITH EQUALITY OPERATOR
-function equalityTest (myValue) {
-    if (myValue == 10) {
-        return 'My Value is Equal'; //if 'myValue' is equal to 10, the equality operator returns true,
-        //so the code in this curly braces will execute
+// //COMPARISON WITH EQUALITY OPERATOR
+// function equalityTest (myValue) {
+//     if (myValue == 10) {
+//         return 'My Value is Equal'; //if 'myValue' is equal to 10, the equality operator returns true,
+//         //so the code in this curly braces will execute
+//     }
+//     return "My Value is not Equal";
+// }
+
+// COMPARISON WITH THE STRICT EQUALITY OPERATOR
+// function testStrictOperator (value) {
+//     if (value === 7 ){
+//         return "Equal";
+//     }
+//     return "not equal";
+// }
+
+// COMPARING DIFFERENT VALUES
+// function compareEquality (a, b){
+//     if (a == b) {
+//         return "This is equal";
+//     }
+//     return "Not Equal";
+// }
+// compareEquality (10,"10");
+
+// COMPARISON WITH THE INEQUALITY OPERATOR
+// function testNotEqual (value) {
+//     if (value != 99) {
+//         return "Not Equal";
+//     }
+//     return "Equal";
+// }
+// testNotEqual(10);
+
+// COMPARISON WITH THE STRICT INEQUALITY OPERATOR
+function testStrictInequality (value) {
+    if (value !== 17) {
+        return "Not Equal";
     }
-    return "My Value is not Equal";
+    return "Equal";
 }
+testStrictInequality(10);
+
+// COMPARISON WITH THE GREATER THAN OPERATOR
+
