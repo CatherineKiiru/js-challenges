@@ -186,13 +186,13 @@ you'll adds the index of that comes after the last element i.e. 6 */
 // testNotEqual(10);
 
 // COMPARISON WITH THE STRICT INEQUALITY OPERATOR
-function testStrictInequality (value) {
-    if (value !== 17) {
-        return "Not Equal";
-    }
-    return "Equal";
-}
-testStrictInequality(10);
+// function testStrictInequality (value) {
+//     if (value !== 17) {
+//         return "Not Equal";
+//     }
+//     return "Equal";
+// }
+// testStrictInequality(10);
 
 // COMPARISON WITH THE GREATER THAN OPERATOR
 // function testGreatherThan (value) {
@@ -207,13 +207,13 @@ testStrictInequality(10);
 // testGreatherThan(10);
 
 // COMPARISON WITH THE GREATER THAN OR EQUAL TO OPERATOR
-function testGreaterOrEqual (value) {
-    if (value >= 20) {
-        return "20 or Over";
-    }
+// function testGreaterOrEqual (value) {
+//     if (value >= 20) {
+//         return "20 or Over";
+//     }
 
-    if (value >= 10) {
-        return "10 or Over";
-    }
-    return "less than 10";
-}
+//     if (value >= 10) {
+//         return "10 or Over";
+//     }
+//     return "less than 10";
+// }
