@@ -51,6 +51,16 @@ The inequality operator also performs type conversion while comparing.
 ### Comparison with the Strict Inequality Operator
 The Strict Inequality Operator (!==) is the logical opposite of the strict equality operator. It means "strictly not equal" and returns "false" where strict equality would return "true" and vice versa. 
 
+### Comparison with the Greater Than Operator
+The greater than Operator (>) compares the value of two numbers. If the number to the left is greater than the number to the right, it returns "true". Otherwise, it returns false. 
+
+The greater than operator also performs type conversion before returning a true or false.
+
+### Comparison with the greater than or equal to operator
+The greater than or equal to operator (>=) compares the value of two numbers. If the number to the left is greater than or equal to the number to the right, the function returns a true boolean. Otherwise, it returns false. 
+
+The greater than or equal to operator also performs type conversion. 
+
 
 
 

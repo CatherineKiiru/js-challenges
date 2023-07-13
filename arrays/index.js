@@ -195,4 +195,25 @@ function testStrictInequality (value) {
 testStrictInequality(10);
 
 // COMPARISON WITH THE GREATER THAN OPERATOR
+// function testGreatherThan (value) {
+//     if (value > 100) {
+//         return "over 100";
+//     }
+//     if (value > 10) {
+//         return "Over 10";
+//     }
+//     return "10 or Under";
+// }
+// testGreatherThan(10);
 
+// COMPARISON WITH THE GREATER THAN OR EQUAL TO OPERATOR
+function testGreaterOrEqual (value) {
+    if (value >= 20) {
+        return "20 or Over";
+    }
+
+    if (value >= 10) {
+        return "10 or Over";
+    }
+    return "less than 10";
+}
