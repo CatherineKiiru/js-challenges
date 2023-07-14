@@ -243,7 +243,8 @@ you'll adds the index of that comes after the last element i.e. 6 */
 // testLessThanOrEqual(10);
 
 // COMPARISON WITH THE LOGICAL AND OPERATOR
-// With nested if statements
+/* With nested if statements */
+
 // function LogicalAnd (num) {
 //     if (num > 5) {
 //         if (num < 10) {
@@ -254,10 +255,18 @@ you'll adds the index of that comes after the last element i.e. 6 */
 // }
 // LogicalAnd(10);
 
-// With "logical and operator" 
-function LogicalAnd (num) {
-    if (num > 5 && num < 10) {
-        return "Yes";
+/* With "logical and operator" */ 
+// function LogicalAnd (num) {
+//     if (num > 5 && num < 10) {
+//         return "Yes";
+//     }
+//     return "No";
+// }
+
+// COMPARISON WITH THE LOGICAL OR OPERATOR
+function testLogicalOr (value) {
+    if (value < 10 || value > 20) {
+        return "Value is outside";
     }
-    return "No";
+    return "Value is Inside";
 }

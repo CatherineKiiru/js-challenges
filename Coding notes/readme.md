@@ -88,7 +88,7 @@ Parameters are variables that act as placeholders for the values that are to be 
 
 ### Comparison with the "Logical And" (&&) operator
 
-There are times where you will need to test and compare more than one thinge at a time. The "logical and" operator (&&) returns true if and only if the operands to the left and right of it are true. The "logical and" works the same way when you nest an "if" statements within another "if" statement. Here's an example:
+There are times where you will need to test and compare more than one thing at a time. The "logical and" operator (&&) returns true if and only if the operands to the left and right of it are true. The "logical and" works the same way when you nest an "if" statements within another "if" statement. Here's an example:
 
 ```JavaScript
 function LogicalAnd (num) {
@@ -112,3 +112,9 @@ function LogicalAnd (num) {
     return "No";
 }
 ```
+
+### Comparison with the "logical or" (||) operator
+The "logical or" operator (||) returns "true" if either of the operands is "true". Otherwise the operator returns a false boolean. 
+The logical or operator is denoted by two pipe symbols (||).
+
+
