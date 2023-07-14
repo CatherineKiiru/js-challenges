@@ -61,6 +61,24 @@ The greater than or equal to operator (>=) compares the value of two numbers. If
 
 The greater than or equal to operator also performs type conversion. 
 
+### Comparison with the less than operator
+The less than (<) operator compares the value of two numbers and returns a boolean depending on the condition. 
+If the number to the left is less than the number to the right, it returns true. Otherwise it returns false.
+
+### Comparison with less than or equal to operator
+The less than or equal to operator (<=) compares the value of two numbers and returns a boolean value. If the number to the left is less than or equal to the number to the right,it returns true. Otherwise the function returns a false boolean. 
+Just like the equalit operator, the less than or equal to operator performs type conversion on data types when evaluating values. 
+
+### Curly Brackets or Braces in JavaScript 
+Curly braces group together code blocks or statements. Their main purpose is to execute code blocks or statements together. Now, you can write code without curly brackets but it has disadvantages. Your function will only execute the first codeblock or statement. Secondly it is not a good coding practice to omit curly braces because you increase your chances of running into unnecessary errors. 
+
+### Parameters
+Parameters are variables that act as placeholders for the values that are to be injected to a function when it is called. These values that are inputed into a parameter are referred to as arguments. 
+
+
+
+
+
 
 
 

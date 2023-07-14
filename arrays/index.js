@@ -217,3 +217,27 @@ you'll adds the index of that comes after the last element i.e. 6 */
 //     }
 //     return "less than 10";
 // }
+
+// COMPARISON WITH THE LESS THAN OPERATOR
+// function testLessThan (value) {
+//     if (value < 25) {
+//         return "Under 25";
+//     }
+//     if (value <55) {
+//         return "Under 55";
+//     }
+//     return "It's 55 or over";
+// }
+// testLessThan(10);
+
+// COMPARISON WITH THE LESS THAN OR EQUAL TO OPERATOR
+// function testLessThanOrEqual (value) {
+//     if (value <= 12) {
+//         return "Less than or equal to 12";
+//     }
+//     if (value <= 24) {
+//         return "Less than or equal to 24";
+//     }
+//     return "More Than 24";
+// }
+// testLessThanOrEqual(10);
