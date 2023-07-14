@@ -241,3 +241,23 @@ you'll adds the index of that comes after the last element i.e. 6 */
 //     return "More Than 24";
 // }
 // testLessThanOrEqual(10);
+
+// COMPARISON WITH THE LOGICAL AND OPERATOR
+// With nested if statements
+// function LogicalAnd (num) {
+//     if (num > 5) {
+//         if (num < 10) {
+//             return "yes";
+//         }
+//     } 
+//     return "No";
+// }
+// LogicalAnd(10);
+
+// With "logical and operator" 
+function LogicalAnd (num) {
+    if (num > 5 && num < 10) {
+        return "Yes";
+    }
+    return "No";
+}
