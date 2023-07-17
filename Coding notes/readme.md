@@ -76,7 +76,7 @@ If the number to the left is less than the number to the right, it returns true.
 ### Comparison with less than or equal to operator
 
 The less than or equal to operator (<=) compares the value of two numbers and returns a boolean value. If the number to the left is less than or equal to the number to the right,it returns true. Otherwise the function returns a false boolean.
-Just like the equalit operator, the less than or equal to operator performs type conversion on data types when evaluating values.
+Just like the equality operator, the less than or equal to operator performs type conversion on data types when evaluating values.
 
 ### Curly Brackets or Braces in JavaScript
 
@@ -102,7 +102,7 @@ function LogicalAnd (num) {
 LogicalAnd(10);
 ```
 
-The code block above can now be rewritten with the logical and operator:
+The code block above can now be rewritten with the "logical and" operator:
 
 ```JavaScript
 function LogicalAnd (num) {
@@ -114,7 +114,26 @@ function LogicalAnd (num) {
 ```
 
 ### Comparison with the "logical or" (||) operator
-The "logical or" operator (||) returns "true" if either of the operands is "true". Otherwise the operator returns a false boolean. 
+
+The "logical or" operator (||) returns "true" if either of the operands is "true". Otherwise the operator returns a false boolean.
 The logical or operator is denoted by two pipe symbols (||).
+
+### Else Statements
+
+Normally, when a condition is true, it executes the code that follows the if statement and when the condition is false, nothing happens.
+Else statements allow you to excecute an alternative block of code within the same function that contains an if statement. For example:
+
+```JavaScript
+function elseStatement (value) {
+    if (value > 10) {
+        return "greater than 10";
+    } else {
+        return "less than 10";
+    }
+}
+
+```
+### Else If Statements
+Else if statements allows you to compare multiple conditions and combine multiple if statements into one function. 
 
 
