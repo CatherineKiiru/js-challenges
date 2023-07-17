@@ -136,4 +136,9 @@ function elseStatement (value) {
 ### Else If Statements
 Else if statements allows you to compare multiple conditions and combine multiple if statements into one function. 
 
+### Correct order in If Else Statements
+Functions are often executed from top to bottom so you need to be careful with which statements come first. 
+
+
+
 
