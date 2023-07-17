@@ -299,5 +299,30 @@ you'll adds the index of that comes after the last element i.e. 6 */
 // }
 // testElse(4);
 
-// 
+// ELSE IF STATEMENTS
+
+// function testElseIf (value) {
+//     if (value > 10) {
+//         return "Greater than 10";
+//     }
+//     if (value < 5) {
+//         return "Smaller than 5";
+//     }
+//     return "Between 5 and 10";
+// }
+// testElseIf(10);
+
+// with else if statement
+
+// function testElseIf (value) {
+//     if (value > 10) {
+//         return "Greater than 10";
+//     } else if (value < 5) {
+//         return "Smaller than 5";
+//     } else {
+//         return "Between 5 and 10";
+//     };
+// }
+// testElseIf(10);
+
 
