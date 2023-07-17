@@ -264,9 +264,40 @@ you'll adds the index of that comes after the last element i.e. 6 */
 // }
 
 // COMPARISON WITH THE LOGICAL OR OPERATOR
-function testLogicalOr (value) {
-    if (value < 10 || value > 20) {
-        return "Value is outside";
-    }
-    return "Value is Inside";
-}
+// function testLogicalOr (value) {
+//     if (value < 10 || value > 20) {
+//         return "Value is outside";
+//     }
+//     return "Value is Inside";
+// }
+
+// ELSE STATEMENTS
+//With if statements only
+// function testElse (value) {
+//     let result = "";
+
+//     if (value > 5) {
+//         result = "bigger than 5";
+//     }
+//     if (value <= 5) {
+//         result = "5 or Smaller";
+//     }
+//     return result;
+// }
+// testElse(4);
+
+// With if/else statement
+// function testElse (value) {
+//     let result = "";
+
+//     if (value > 5) {
+//         result = "bigger than 5";
+//     } else {
+//         result = "5 or smaller";
+//     }
+//     return result;
+// }
+// testElse(4);
+
+// 
+
