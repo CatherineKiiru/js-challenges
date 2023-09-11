@@ -125,7 +125,7 @@ Else statements allow you to excecute an alternative block of code within the sa
 
 ```JavaScript
 function elseStatement (value) {
-    if (value > 10) {
+    if () {
         return "greater than 10";
     } else {
         return "less than 10";
@@ -138,6 +138,33 @@ Else if statements allows you to compare multiple conditions and combine multipl
 
 ### Correct order in If Else Statements
 Functions are often executed from top to bottom so you need to be careful with which statements come first. 
+
+July 17th-restarted on 11th September
+
+### Chaining If Else Statements 
+
+If/esle statements can be chained together to execute multiple conditions and complex logic. For example:
+
+```Javascript
+function testSize(num) {
+  if (num < 5) {
+    return "Tiny";
+  } else if (num < 10) {
+    return "Small";
+  } else if (num < 15) {
+    return "Medium";
+  } else if (num < 20) {
+    return large;
+  } else {
+    return Huge;
+  }
+}
+testSize();
+```
+
+### Golf Code
+Pass par and strokes as arguments to a function.
+Return the correct string from a list of strokes in order of priority i.e. from top to bottom. 
 
 
 

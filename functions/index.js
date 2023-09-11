@@ -353,7 +353,6 @@ an undefined value */
 // console.log(readingList.reverse());
 // console.log(readingList.sort());
 
-
 // filmOne = "Swarm\'s"
 // filmTwo = "Swarm\'s"
 
@@ -366,25 +365,72 @@ an undefined value */
 // }
 // console.log("Program is finished executing");
 
-foodPrice = 8.20;
+foodPrice = 8.2;
 isPlaceVegeterian = "no";
 
-isWithinBudget = (foodPrice <= 10.50);
-isVegeterian = (isPlaceVegeterian =="yes")
+isWithinBudget = foodPrice <= 10.5;
+isVegeterian = isPlaceVegeterian == "yes";
 
 if (isWithinBudget && isVegeterian) {
   console.log("This place is perfect!");
-} 
-else if (!isWithinBudget && isVegeterian) {
+} else if (!isWithinBudget && isVegeterian) {
   console.log("Maybe next time I'm richer");
-}
-else if (isWithinBudget && !isVegeterian) {
+} else if (isWithinBudget && !isVegeterian) {
   console.log("cheap but no vegeterian option");
-}
-else {
+} else {
   console.log("I'll find somewhere else");
 }
 
 // Map and IndexOf
 /* This helps in looping through an array, and 
 the IndexOf returns the index of the particular array item*/
+
+// Chaining if/else statements
+// function testSize(num) {
+//   if (num < 5) {
+//     return "Tiny";
+//   } else if (num < 10) {
+//     return "Small";
+//   } else if (num < 15) {
+//     return "Medium";
+//   } else if (num < 20) {
+//     return large;
+//   } else {
+//     return Huge;
+//   }
+// }
+// testSize();
+
+// Golf code challenge
+
+const names = [
+  "Hole-in-one!",
+  "Eagle",
+  "Birdie",
+  "Par",
+  "Bogey",
+  "Double Bogey",
+  "Go Home!",
+];
+
+function golfScore(par, strokes) {
+  
+  if (strokes == 1) {
+    return names[0];
+  } else if (strokes <= par - 2) {
+    return names[1];
+  } else if (strokes === par - 1) {
+    return names[2];
+  } else if (strokes === par) {
+    return names[3];
+  } else if (strokes === par + 1) {
+    return names[4];
+  } else if (strokes === par + 2) {
+    return names[5];
+  } else {
+    return names[6];
+  }
+  
+}
+
+golfScore(5, 4);
